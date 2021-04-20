@@ -1,0 +1,485 @@
+a:hover{
+    text-decoration: none;
+}
+.bg-p{
+    background-color: #1cc3b2;
+    transition: 0.5s;
+}
+.bg-p:hover{
+    background-color:#fff;
+    color:#1cc3b2;
+}
+.bg-b{
+    background-color:#0e2737;
+}
+.text-p{
+    color:#1cc3b2;
+}
+.text-s{
+    color:#ffc107;
+}
+.navbar ul li .bi:hover{
+    color:#1cc3b2;
+}
+.btn-1{
+    border:2px solid #1cc3b2;
+    border-radius:2px;
+}
+.btn-1:hover{
+    background-color: #1cc3b2;
+}
+.cl:hover{
+    background-color: #2a303b;
+    color:#fff;
+}
+#showcase{
+    background:url(../images/3.jpg) no-repeat center center/cover;
+    height:800px;
+    position: relative;
+}
+.dark-overlay{
+    background-color:rgba(0,0,0,0.6);
+    top:0;
+    left:0;
+    width:100%;
+    min-height:800px;
+    position: absolute;
+}
+#card{
+    position: absolute;
+    top:98%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+#showcase .d-flex{
+    height: 800px;
+}
+#entertainment img{
+    height:700px;
+    position: relative;
+    object-fit: cover;
+}
+#entertainment .shadow{
+    position: absolute;
+    left:0;
+    bottom:0;
+    background-color:rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height:100px;
+}
+#contact .container{
+    background:url(../images/5.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    min-height: 200px;
+    position: relative;
+}
+#contact .blue{
+    position: absolute;
+    background-color:rgba(41, 36, 94, 0.6);
+    left:0;
+    top:0;
+    bottom:0;
+    width: 100%;
+    right:0;
+    height:200px;
+}
+#luxury{
+    margin-top: 150px;
+    overflow: hidden;
+}
+#swim{
+    overflow: hidden;
+}
+#swim img{
+    width: 100%;
+    transition: 0.8s all ease-in-out;
+}
+#swim:hover img{
+   transform: scale(1.2);
+}
+#welcome{
+    position:relative;
+    animation:welcome;
+    animation-duration:5s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in-out;
+}
+@keyframes welcome{
+    0% {top: -200px}
+    100% {top:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#king{
+    position:relative;
+    animation:welcome1;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+}
+@keyframes welcome1{
+    0% {top: 100px}
+    100% {top:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#blg{
+    position:relative;
+    animation:welcome2;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+}
+@keyframes welcome2{
+    0% {top:-100px}
+    100% {top:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#one{
+    position:relative;
+    animation:welcome3;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+}
+@keyframes welcome3{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#two{
+    position:relative;
+    animation:welcome4;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    animation-delay: 0.2s;
+    transition: ease-in;
+}
+@keyframes welcome4{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#three{
+    position:relative;
+    animation:welcome5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    animation-delay: 0.4s;
+    transition: ease-in;
+}
+@keyframes welcome5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#us{
+    position:relative;
+    animation:welcome6;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0.5;
+    transition: ease-in-out;
+}
+@keyframes welcome6{
+    0% {top: 50px}
+    100% {top:0px}
+    0% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+#swim{
+    position:relative;
+    animation:welcome7;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    animation-delay: 1s;
+    transition: ease-in-out;
+}
+@keyframes welcome7{
+    0% {top: 50px}
+    100% {top:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/*Rooms Page*/
+#room{
+    background:url(../images/14.jpg) no-repeat center center/cover;
+    position: relative;
+    height: 300px;
+    background-attachment:fixed ;
+}
+#room .dark-room{
+    background-color:rgba(0,0,0,0.6);
+    top:0;
+    left:0;
+    width:100%;
+    min-height:300px;
+    position: absolute;
+}
+#room .d-flex{
+    height: 300px;
+}
+#video .dark-video{
+    background-color:rgba(0,0,0,0.6);
+    top:0;
+    left:0;
+    width:100%;
+    min-height:400px;
+    position: absolute;
+}
+#overview v{
+    transition: 0.6s;
+}
+#overview .v:hover{
+    color:#000;
+}
+#four{
+    position:relative;
+    animation:wel1;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+}
+@keyframes wel1{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#five{
+    position:relative;
+    animation:wel2;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 0.5s;
+}
+@keyframes wel2{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#six{
+    position:relative;
+    animation:wel3;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 1s;
+}
+@keyframes wel3{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#seven{
+    position:relative;
+    animation:wel4;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 1.5s;
+}
+@keyframes wel4{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#eight{
+    position:relative;
+    animation:wel5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 2s;
+}
+@keyframes wel5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/*About Page*/
+#video{
+    background:url(../images/22.jpg) no-repeat center center/cover;
+    position: relative;
+    height: 400px;
+    background-attachment:fixed ;
+}
+#video .d-flex{
+    height:400px;
+}
+#solution img{
+    position: relative;
+    height:350px;
+    object-fit: cover;
+}
+#solution .shadow{
+    position: absolute;
+    left:15px;
+    bottom:15px;
+    right: 15px;
+    background-color:rgba(0, 0, 0, 0.4);
+    height:70px;
+    transition: 0.5s;
+}
+#solution .shadow:hover{
+    background-color: #2a303b;
+}
+#video a .bi:hover{
+    color:#fff;
+}
+#nine{
+    position:relative;
+    animation:wel5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+}
+@keyframes wel5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#ten{
+    position:relative;
+    animation:wel5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 0.5s;
+}
+@keyframes wel5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#eleven{
+    position:relative;
+    animation:wel5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 0.5s;
+}
+@keyframes wel5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#ul{
+    position:relative;
+    animation:wel5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+}
+@keyframes wel5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#our{
+    position:relative;
+    animation:wel5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 0.5s;
+}
+@keyframes wel5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#bar{
+    position:relative;
+    animation:wel5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 0.8s;
+}
+@keyframes wel5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#spa{
+    position:relative;
+    animation:wel5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 1.2s;
+}
+@keyframes wel5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#pool{
+    position:relative;
+    animation:wel5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    transition: ease-in;
+    animation-delay: 1.6s;
+}
+@keyframes wel5{
+    0% {bottom: -100px}
+    100% {bottom:0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media(max-width:1000px){
+  #cards .d-flex{
+flex-direction: column;
+  }
+  #cards h5{
+      font-size: 30px;
+  }
+}
+@media(max-width:1200px){
+    #links .d-flex{
+        flex-direction: column;
+    }
+    
+}
+
